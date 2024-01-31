@@ -461,6 +461,7 @@ export async function useGraphQL(query, param) {
   data['aem-author'] = data['aem-author'].replace(/\/+$/, '');
   const { pathname } = new URL(query);
   const url = param ? new URL(`${data['aem-author']}${pathname}${param}`) : new URL(`${data['aem-author']}${pathname}`);
+  url.searchParams.append("ck", Math.random());
   const options = data['aem-author'].includes('publish')
     ? {
       headers: {
