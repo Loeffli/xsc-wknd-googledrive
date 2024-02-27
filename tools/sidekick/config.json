@@ -36,7 +36,7 @@
     },
     {
       "id": "generate-variations",
-      "title": "Generate Variations",
+      "title": "Generate Variations (AI)",
       "url": "https://experience.adobe.com/aem/generate-variations",
       "passConfig": true,
       "environments": ["preview","live", "edit"],
