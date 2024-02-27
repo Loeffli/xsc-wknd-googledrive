@@ -337,19 +337,6 @@ main .section {
 }
 
 
- /* CML customization Start*/
- main .section:nth-child(odd) {
-  background-color: #fff;
-}
-
-main .section:nth-child(even) {
-background-color: #eee;
-}
-/* CML Customization End*/
-
-
-
-
 /* main:has(.section.overview), main:has(.section.itinerary), main:has(.section.what-to-bring) {
   display: flex;
   flex-direction: row;
