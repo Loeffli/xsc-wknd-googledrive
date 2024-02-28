@@ -92,7 +92,9 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
 export default async function decorate(block) {
   // fetch nav content
   const navMeta = getMetadata('nav');
-  const navPath = navMeta ? new URL(navMeta).pathname : '/nav';
+  // CML correction, updated navPath when no nav is specified in Metadata section to reflect the actual contet structure where nav is located under /en
+  //const footerPath = footerMeta ? new URL(footerMeta).pathname : '/nav';
+  const navPath = navMeta ? new URL(navMeta).pathname : '/en/nav';
   const resp = await fetch(`${navPath}.plain.html`);
 
   if (resp.ok) {
