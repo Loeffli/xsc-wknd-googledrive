@@ -1,7 +1,11 @@
 .blockquote {
   background-color: var(--overlay-background-color);
   padding: 1em;
+}
 
+.blockquote.block {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .blockquote blockquote {
