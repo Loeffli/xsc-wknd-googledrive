@@ -1,11 +1,13 @@
 .blockquote {
   background-color: var(--overlay-background-color);
   padding: 1em;
+  border: 2px solid red;
 }
 
 .blockquote.block {
   margin-top: 60px;
   margin-bottom: 60px;
+  color: red;
 }
 
 .blockquote blockquote {
