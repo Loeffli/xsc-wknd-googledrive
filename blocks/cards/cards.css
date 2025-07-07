@@ -38,5 +38,5 @@
   aspect-ratio: 6 / 5;
   object-fit: cover;
   border-radius: 9px;  
-  box-shadow: 0 5px 20px 0 rgba(0, 202, 154, 0.8), 0 6px 20px 0 rgba(0, 202, 154, 0.7);
+  box-shadow: 0 5px 20px 0 rgba(0, 202, 154, 0.6), 0 6px 20px 0 rgba(0, 202, 154, 0.5);
 }
