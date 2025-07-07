@@ -10,7 +10,7 @@
 .cards > ul > li {
   /* border: 1px solid var(--highlight-background-color); */
   background-color: transparent;
-  box-shadow: 0 4px 8px 0 rgba(0, 222, 111, 0.2), 0 6px 20px 0 rgba(0, 244, 155, 0.19);
+  box-shadow: 10px 10px 5px turquoise;
 }
 
 .cards .cards-card-body {
