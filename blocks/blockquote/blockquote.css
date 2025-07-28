@@ -1,7 +1,6 @@
 .blockquote {
   background-color: var(--overlay-background-color);
   padding: 1em;
-  border: 4px solid blue;
 }
 
 .blockquote.block {
